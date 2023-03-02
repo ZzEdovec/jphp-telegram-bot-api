@@ -1,5 +1,5 @@
 name: telegram-bot-api
-version: 1.2
+version: 1.3
 deps:
   jphp-core: '*'
   jphp-json-ext: '*'
@@ -34,7 +34,7 @@ config:
   - /LICENSE
 
 develnext-bundle:
-  version: 1.2
+  version: 1.3
   name: Telegram Bot API
   author: broelik
   icon: "develnext/bundle/telegram/icon32.png"

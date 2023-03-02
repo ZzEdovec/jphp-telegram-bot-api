@@ -3,7 +3,7 @@
 
 namespace telegram\tools;
 
-
+use php\framework\Logger;
 use php\lang\IllegalStateException;
 use php\lang\Thread;
 use php\lang\ThreadPool;
@@ -95,7 +95,7 @@ class TUpdateListener{
                                 $callback($update);
                             }
                             catch(\Throwable $thr){
-                                // oke
+                                Logger::error($thr->getMessage());
                             }
                         }
                     });
@@ -108,7 +108,7 @@ class TUpdateListener{
                             $callback($update);
                         }
                         catch(\Throwable $thr){
-                            // oke
+                            Logger::error($thr->getMessage());
                         }
                     }
                 }
