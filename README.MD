@@ -2,7 +2,7 @@
 Расширение для работы с Telegram Bot API
 ## Установка
 ```
-jppm add telegram-bot-api@git+https://github.com/jphp-group/jphp-telegram-bot-api
+jppm add telegram-bot-api@git+https://github.com/ZzEdovec/jphp-telegram-bot-api
 ```
 ## Примеры
 ### Инициализация API
